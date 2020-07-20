@@ -13,7 +13,7 @@
 ## Работа с почтой
 * NuGet package: MailKit
 
-## Комментирование 
+## Комментирование товаров (отзывы покупателей)
 * https://disqus.com/
 
 ![App scheme](ResourcesForReadme/ShopAppScheme.png)
