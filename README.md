@@ -19,6 +19,9 @@
 ## Хостинг
 * Azure
 
+## Статус
+* В разработке
+
 ![App scheme](ResourcesForReadme/ShopAppScheme.png)
 
 
