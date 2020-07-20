@@ -18,5 +18,4 @@
 
 ![App scheme](ResourcesForReadme/ShopAppScheme.png)
 
-## TO DO List в Trello
-[E-Shop 'to do' list](https://trello.com/b/FCxBPJYX/e-shop)
+
