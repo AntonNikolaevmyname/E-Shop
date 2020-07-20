@@ -13,6 +13,9 @@
 ## Работа с почтой
 * NuGet package: MailKit
 
+## Комментирование 
+* https://disqus.com/
+
 ![App scheme](ResourcesForReadme/ShopAppScheme.png)
 
 ## TO DO List в Trello
