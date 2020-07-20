@@ -9,8 +9,9 @@ namespace Shop.Model
     public class ProductContext : DbContext
     {
         // Каждый DbSet соотносится с отдельной таблицей в бд.
-        public DbSet<Product> Phones { get; set; }
+        public DbSet<Product> Products { get; set; }
         public DbSet<Order> Orders { get; set; }
+        public DbSet<Customer> Customers { get; set; }
 
         public ProductContext(DbContextOptions<ProductContext> options)
             : base(options)

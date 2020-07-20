@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\Shop\\Shop.csproj": {}
+    "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\ShopClassLibrary\\ShopClassLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\Shop\\Shop.csproj": {
+    "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\ShopClassLibrary\\ShopClassLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\Shop\\Shop.csproj",
-        "projectName": "Shop",
-        "projectPath": "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\Shop\\Shop.csproj",
+        "projectUniqueName": "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\ShopClassLibrary\\ShopClassLibrary.csproj",
+        "projectName": "ShopClassLibrary",
+        "projectPath": "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\ShopClassLibrary\\ShopClassLibrary.csproj",
         "packagesPath": "C:\\Users\\DNS\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\Shop\\obj\\",
+        "outputPath": "C:\\Users\\DNS\\Documents\\GitHub\\E-Shop\\EShop\\ShopClassLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",
@@ -42,16 +42,6 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "dependencies": {
-            "Microsoft.EntityFrameworkCore.SqlServer": {
-              "target": "Package",
-              "version": "[5.0.0-preview.6.20312.4, )"
-            },
-            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
-              "target": "Package",
-              "version": "[5.0.0-preview.6.20323.1, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -63,9 +53,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
