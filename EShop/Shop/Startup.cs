@@ -25,7 +25,7 @@ namespace Shop
         public void ConfigureServices(IServiceCollection services)
         {
             string connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<ProductContext>(options => options.UseSqlServer(connection));
+            services.AddDbContext<ShopContext>(options => options.UseSqlServer(connection));
             services.AddMvc();
         }
 

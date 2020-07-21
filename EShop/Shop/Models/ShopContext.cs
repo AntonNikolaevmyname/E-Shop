@@ -1,9 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Shop.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 
 namespace Shop.Model
 {
@@ -14,9 +10,7 @@ namespace Shop.Model
         public DbSet<Customer> Customers { get; set; }
         public DbSet<Order> Orders { get; set; }
         public DbSet<Product> Products { get; set; }
-        
-        
-        
+
 
         public ShopContext(DbContextOptions<ShopContext> options)
             : base(options)
