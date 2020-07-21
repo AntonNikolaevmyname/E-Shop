@@ -1,14 +1,42 @@
-﻿@{
+﻿@model IEnumerable<Shop.Model.Product>
+@{
+    //ViewData["Title"] = "Список смартфонов";
     Layout = null;
 }
-<!doctype html>
+<!DOCTYPE html>
+
 <html>
 <head>
-    <title>Hello ASP.NET MVC Core</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
+    <title>Магазин мебели</title>
 </head>
 <body>
-    <h2>Привет мир!</h2>
+    <h3>Мебель</h3>
+    <table>
+        <tr>
+            <td>Колчиество</td>
+            <td>Имя</td>
+            <td>Компания</td>
+            <td>Категория</td>
+            <td>Ссылка на картинку</td>
+            <td>Цена</td>
+            <td>Скидка</td>
+            <td>Описание</td>
+            <td></td>
+        </tr>
+        @foreach (var product in Model)
+        {
+        <tr>
+            <td>@product.ProductCount</td>
+            <td>@product.ProductName</td>
+            <td>@product.ProductCompany</td>
+            <td>@product.ProductCategory</td>
+            <td>@product.ProductLinkToPicture</td>
+            <td>@product.ProductPrice</td>
+            <td>@product.ProductDiscount</td>
+            <td>@product.ProductDescription</td>
+            <td><a href="~/Home/Buy/@product.ProductId">Купить</a></td>
+        </tr>
+        }
+    </table>
 </body>
 </html>
