@@ -16,6 +16,12 @@
 ## Комментирование товаров (отзывы покупателей)
 * https://disqus.com/
 
+## Хостинг
+* Azure
+
+## Статус
+* В разработке
+
 ![App scheme](ResourcesForReadme/ShopAppScheme.png)
 
 
