@@ -13,11 +13,12 @@
         </tr>
         @foreach (var phone in Model)
         {
-            <tr>
-                <td>@phone.ProductCategory</td>
-                <td>@phone.ProductCompany</td>
-                <td>@phone.ProductCount</td>
-                <td><a href="~/Home/Buy/@phone.ProductId">Купить</a></td>
-            </tr>
+    <tr>
+        <td>@phone.ProductCategory</td>
+        <td>@phone.ProductCompany</td>
+        <td>@phone.ProductCount</td>
+        
+        <td><a href="~/Home/Buy/@phone.ProductId">Купить</a></td>
+    </tr>
         }
     </table>
