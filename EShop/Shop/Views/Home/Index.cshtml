@@ -1,42 +1,23 @@
 ﻿@model IEnumerable<Shop.Model.Product>
 @{
-    //ViewData["Title"] = "Список смартфонов";
-    Layout = null;
+    ViewData["Title"] = "Интернет - магазин";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<!DOCTYPE html>
 
-<html>
-<head>
-    <title>Магазин мебели</title>
-</head>
-<body>
-    <h3>Мебель</h3>
-    <table>
+    <table class="table-condensed">
         <tr>
-            <td>Колчиество</td>
-            <td>Имя</td>
-            <td>Компания</td>
-            <td>Категория</td>
-            <td>Ссылка на картинку</td>
+            <td>Модель</td>
+            <td>Производитель</td>
             <td>Цена</td>
-            <td>Скидка</td>
-            <td>Описание</td>
             <td></td>
         </tr>
-        @foreach (var product in Model)
+        @foreach (var phone in Model)
         {
-        <tr>
-            <td>@product.ProductCount</td>
-            <td>@product.ProductName</td>
-            <td>@product.ProductCompany</td>
-            <td>@product.ProductCategory</td>
-            <td>@product.ProductLinkToPicture</td>
-            <td>@product.ProductPrice</td>
-            <td>@product.ProductDiscount</td>
-            <td>@product.ProductDescription</td>
-            <td><a href="~/Home/Buy/@product.ProductId">Купить</a></td>
-        </tr>
+            <tr>
+                <td>@phone.ProductCategory</td>
+                <td>@phone.ProductCompany</td>
+                <td>@phone.ProductCount</td>
+                <td><a href="~/Home/Buy/@phone.ProductId">Купить</a></td>
+            </tr>
         }
     </table>
-</body>
-</html>

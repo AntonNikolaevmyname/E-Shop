@@ -96,7 +96,6 @@ C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.Raz
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.input.cache
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.TagHelpers.output.cache
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.RazorCoreGenerate.cache
-C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.RazorTargetAssemblyInfo.cs
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.Views.pdb
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
@@ -142,3 +141,6 @@ C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\bin\Debug\netcoreapp3.1\runtimes
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\bin\Debug\netcoreapp3.1\libman.json
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
