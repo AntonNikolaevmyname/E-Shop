@@ -17,23 +17,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-warning" href="~/Views/Home/Index.cshtml"> Главная <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-warning" href="#"> Главная <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-warning" href="~/Views/Basket/Basket.cshtml"> Корзина <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-warning" href="#l"> Корзина <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Категории
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="~/Views/Product/Product.cshtml">Смартфоны</a>
+                        <a class="dropdown-item" href="#">Смартфоны</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="~/Views/Product/Product.cshtml">Ноутбуки</a>
+                        <a class="dropdown-item" href="#">Ноутбуки</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="~/Views/Product/Product.cshtml">Часы</a>
+                        <a class="dropdown-item" href="#">Часы</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="~/Views/Product/Product.cshtml">Компьютеры</a>
+                        <a class="dropdown-item" href="#">Компьютеры</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -41,9 +41,9 @@
                         Аккаунт
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="~/Views/Account/AccountAuth.cshtml" onclick="">Войти</a>
+                        <a class="dropdown-item" asp-controller="AccountAuth" asp-action="AccountAuth">Войти</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="~/Views/Account/AccountReg.cshtml">Регистрация</a>
+                        <a class="dropdown-item" href="#">Регистрация</a>
                     </div>
                 </li>
             </ul>
@@ -57,7 +57,7 @@
     <!-- Footer -->
     <footer class="mt-auto footer">
         <div class="footer-copyright text-center py-3 bg-dark">
-          <p class="text-warning"> © 2020 Copyright </p>
+            <p class="text-warning"> © 2020 Copyright </p>
         </div>
         <script src="~/lib/bootstrap/js/bootstrap.js"></script>
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
