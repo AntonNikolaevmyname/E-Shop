@@ -4,9 +4,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Shop.Views.Account
+namespace Shop.Controllers.Account
 {
-    public class AccountController : Controller
+    public class AccountAuthController : Controller
     {
         public IActionResult Index()
         {

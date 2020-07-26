@@ -144,3 +144,7 @@ C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Shop.Mvc
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\bin\Debug\netcoreapp3.1\libman.json
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Basket\Basket.cshtml.g.cs
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\Product\Product.cshtml.g.cs
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\AccountAuth\AccountAuth.cshtml.g.cs
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\AccountReg\AccountReg.cshtml.g.cs

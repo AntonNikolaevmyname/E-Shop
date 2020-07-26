@@ -18,5 +18,9 @@ namespace Shop.Controllers
         {
             return View(db.Products.ToList());
         }
+        public IActionResult AccountAuth()
+        {
+            return View("~/Views/Account/AccountAuth.cshtml");
+        }
     }
 }
