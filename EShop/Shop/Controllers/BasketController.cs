@@ -8,7 +8,7 @@ namespace Shop.Views.Basket
 {
     public class BasketController : Controller
     {
-        public IActionResult Index()
+        public IActionResult Basket()
         {
             return View();
         }

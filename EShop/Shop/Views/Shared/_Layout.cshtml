@@ -17,23 +17,23 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link text-warning" href="#"> Главная <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-warning" asp-controller="Home" asp-action="Index"> Главная <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item active">
-                    <a class="nav-link text-warning" href="#l"> Корзина <span class="sr-only">(current)</span></a>
+                    <a class="nav-link text-warning" asp-controller="Basket" asp-action="Basket"> Корзина <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle text-warning" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Категории
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="#">Смартфоны</a>
+                        <a class="dropdown-item" asp-controller="Product" asp-action="Product">Смартфоны</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Ноутбуки</a>
+                        <a class="dropdown-item" asp-controller="Product" asp-action="Product">Ноутбуки</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Часы</a>
+                        <a class="dropdown-item" asp-controller="Product" asp-action="Product">Часы</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Компьютеры</a>
+                        <a class="dropdown-item" asp-controller="Product" asp-action="Product">Компьютеры</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -43,7 +43,7 @@
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                         <a class="dropdown-item" asp-controller="AccountAuth" asp-action="AccountAuth">Войти</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Регистрация</a>
+                        <a class="dropdown-item" asp-controller="AccountReg" asp-action="AccountReg">Регистрация</a>
                     </div>
                 </li>
             </ul>

@@ -8,7 +8,7 @@ namespace Shop.Controllers.Account
 {
     public class AccountRegController : Controller
     {
-        public IActionResult Index()
+        public IActionResult AccountReg()
         {
             return View();
         }
