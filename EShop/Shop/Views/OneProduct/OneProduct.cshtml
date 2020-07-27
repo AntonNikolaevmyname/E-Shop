@@ -1,6 +1,7 @@
-﻿@{
-    ViewData["Title"] = "Характеристики товара";
+﻿@model IEnumerable<Shop.Model.Product>
+@{
+    ViewData["Title"] = "Страница товара";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-    
+    <p>@Model.First().ProductId</p>
