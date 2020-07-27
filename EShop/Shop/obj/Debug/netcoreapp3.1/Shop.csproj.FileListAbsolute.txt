@@ -149,3 +149,4 @@ C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Vi
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\AccountAuth\AccountAuth.cshtml.g.cs
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\AccountReg\AccountReg.cshtml.g.cs
 C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\DNS\Documents\GitHub\E-Shop\EShop\Shop\obj\Debug\netcoreapp3.1\Razor\Views\OneProduct\OneProduct.cshtml.g.cs
