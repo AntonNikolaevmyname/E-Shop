@@ -30,6 +30,6 @@ namespace Shop.Models
         public int CustomerId { get; set; } // Ссылка на связанную модель Customer.
 
         [Required]
-        public Customer Customer { get; set; }
+        public User User { get; set; }
     }
 }

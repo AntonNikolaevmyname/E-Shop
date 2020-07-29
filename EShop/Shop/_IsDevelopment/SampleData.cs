@@ -9,6 +9,7 @@ namespace Shop._IsDevelopment
         {
             if (!context.Products.Any())
             {
+                /*
                 context.Products.AddRange(
                     new Product
                     {
@@ -43,7 +44,7 @@ namespace Shop._IsDevelopment
                         ProductDiscount = 50,
                         ProductDescription = "An ordinary table."
                     }
-                );
+                );*/
                 context.SaveChanges();
             }
         }
