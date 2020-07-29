@@ -7,9 +7,15 @@
     <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
             @foreach (var product in Model)
-            {
-            <li data-target="#carouselExampleCaptions" data-slide-to="@product.ProductId"></li>
-            }
+			{
+				if (product == Model.First()
+					|| product == Model.ElementAt(2)
+					|| product == Model.ElementAt(3))
+				{
+                <li data-target="#carouselExampleCaptions" data-slide-to="@product.ProductId"></li>
+
+				}
+			}
         </ol>
 
         <div class="carousel-inner">
@@ -25,7 +31,8 @@
                         </div>
                     </div>
                 }
-                else
+                else if(product == Model.ElementAt(2) ||
+                        product == Model.ElementAt(3))
                 {
                     <div class="carousel-item">
                         <img src="@product.ProductLinkToPicture" class="d-block w-100" alt="@product.ProductName">
