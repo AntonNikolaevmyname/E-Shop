@@ -10,6 +10,10 @@
 ## Аутентификация и авторизация
 * ASP.NET Core Identity
 
+## Данные
+* Данные хранятся в MS SQL Server
+* Изображения в облаке mail.ru
+
 ## Работа с почтой
 * NuGet package: MailKit
 
